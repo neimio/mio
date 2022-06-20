@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>美丽的家乡</title>
-  <style type="text/css">
+  <style type ="text/css">
+/*网页插入背景图片，注意图片大小*/
     body{
       background-image:url(./images/1.jpg);
       background-size:100% 100%;
@@ -12,10 +13,19 @@
     html{
       height:100%;
     }
+/*为网页添加一个动画，myfirst为动画的名字*/
+    @keyframes myfirst{
+      from{background:green;opacity:0}
+      to{background:white;opacity:100}
+    }
+/*将动画应用到标题 infinite为循环的状态*/
+    h1{
+      animation: myfirst 8s infinite;
+    }
   </style>
 </head>
 <body>
-<img src=""/>
+<image src=""/>
 <h1>美丽的家乡</h1>
 <p>高高的山峰</p>
 <p>绿绿的田野</P>
