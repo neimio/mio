@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+新的世界
 
 You can use the [editor on GitHub](https://github.com/neimio/mio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
