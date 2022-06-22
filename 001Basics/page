@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/page.css"/><!--外联的css-->
+    <script>
+        function audioAutoplay(id){
+            var audio = document.getElementById(id);
+            audio.play();
+            document.addEventListener("WeixinJSBridegeReady",function(){
+                audio.play();
+            },false);
+            document.addEventListener('leJSBridegeReady',function(){
+                audio.play();
+            },false);
+        }
+    </script>
+</head>
+<body>
+<!--为网页添加一个背景音乐-->
+<audio src ="music/bgm.wav"  autoplay="autoplay" loop="loop"><!--音乐控制台-->
+    <video muted src=""autoplay loop></video><!--网页自动播放音乐-->
+</audio>
+<page id="c">春</page>
+<page id="x">夏</page>
+<page id="q">秋</page>
+<page id="d">
+    冬
+   <span id="z">周而复始</span><!--在冬的页面上加字-->
+</page>
+</body>
+</html>
